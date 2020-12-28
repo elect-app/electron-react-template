@@ -52,6 +52,16 @@ Add a 256 x 256 .png or .ico image in your public folder. It should be either `i
 
 1. Errors showing the modules are deprecated. You can safely use the template even after those warnings or errors (though it is advisable to update it).
 
+Example -
+
+```
+...
+npm WARN deprecated @hapi/hoek@8.5.1: This version has been deprecated and is no longer supported or maintained
+npm WARN deprecated...
+```
+
+(**Note: However these types of messages are not expected as all the modules are updated frequently. :)** )
+
 2. Errors related to fsevents can be ignored if it is use in computer which is **not** a _mac_. (If any error related to _fsevents_ happens on mac, please file a issue !)
 
 #### Credits to (for making the initial commits of the repo) -
